@@ -9,7 +9,6 @@ body {
     font-family: "work sans", "sans-serif";
 }
 
-/*  End global ruls */
 .parent {
     background-color: #eee;
 
@@ -44,4 +43,27 @@ body {
     .container {
         width: 1150px
     }
+}
+
+/*  End global ruls */
+.header {
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 60px;
+}
+
+.header .links {
+    position: relative;
+}
+
+.fa-bars:hover {
+    transform: scale(1.5);
 }
