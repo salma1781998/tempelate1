@@ -22,6 +22,7 @@ body {
     padding-left: 15px;
 }
 
+
 /*small */
 @media (min-width:768px) {
     .container {
@@ -227,6 +228,11 @@ body {
     background-color: #f6f6f6;
 }
 
+.portfoliocol .image {
+    width: 150px;
+    height: 150px;
+}
+
 .portfolio .portfoliocontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -255,11 +261,28 @@ body {
 /*start about */
 .about {
     margin-top: 85px;
-    display: flex;
 }
 
-.flexabout {
-    flex-basis: calc(100% - 500px);
+.flexabout .pic {
+    display: grid;
+    grid-template-columns: repeat(2 auto);
+    align-items: center;
+
+
+    /* flex-basis: calc(100% - 500px); */
+    /*width: calc(auto / 2);
+    display: grid;
+    grid-template-columns: repeat(2 auto);
+    align-items: ;
+    display: flex;*/
+
+
+
+}
+
+.flexabout .imageabout {
+    width: 300px;
+    height: 250px;
 }
 
 /* End about */
